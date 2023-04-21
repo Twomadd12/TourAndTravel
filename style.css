@@ -8,8 +8,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* inter-500 - latin */
   @font-face {
@@ -17,8 +17,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* inter-600 - latin */
   @font-face {
@@ -26,8 +26,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* playfair-display-regular - latin */
 @font-face {
@@ -35,8 +35,8 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* playfair-display-700 - latin */
   @font-face {
@@ -44,8 +44,8 @@
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/playfair-display-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/playfair-display-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* mulish-300 - latin */
 @font-face {
@@ -53,8 +53,8 @@
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/mulish-v12-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/mulish-v12-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/mulish-v12-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/mulish-v12-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* mulish-regular - latin */
   @font-face {
@@ -62,8 +62,8 @@
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/mulish-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('fonts/mulish-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   html{
     box-sizing: border-box;
@@ -412,7 +412,7 @@ color: #FB8F1D;
 }
 .view a::after{
   
-  content: url(/img/Vector\ 1.svg);
+  content: url(img/Vector\ 1.svg);
   padding-left: 11px;
 }
 .intro_picture{
@@ -425,7 +425,7 @@ color: #FB8F1D;
 .location_one{
   width: 290px;
   height: 363px;
-  background-image: url(/img/image\ 4.svg);
+  background-image: url(img/image\ 4.svg);
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -451,7 +451,7 @@ padding-top: 10px;
   .location_two{
     width: 290px;
     height: 363px;
-    background-image: url(/img/Fanjingshan.svg);
+    background-image: url(img/Fanjingshan.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -461,7 +461,7 @@ padding-top: 10px;
      .location_three{
       width: 290px;
   height: 363px;
-      background-image: url(/img/swis.svg);
+      background-image: url(img/swis.svg);
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 10px;
@@ -471,7 +471,7 @@ padding-top: 10px;
   .location_four{
     width: 290px;
   height: 363px;
-    background-image: url(/img/Skadar.svg);
+    background-image: url(img/Skadar.svg);
     background-repeat: no-repeat;
     
    
@@ -713,7 +713,7 @@ line-height: 50px;
 .stories_one{
   width: 290px;
   height: 254px;
-  background-image: url(/img/stories_one.svg);
+  background-image: url(img/stories_one.svg);
   background-repeat: no-repeat;
   background-position: center;
     background-size: cover;
@@ -723,7 +723,7 @@ line-height: 50px;
 .stories_two{
   width: 290px;
   height: 254px;
-  background-image: url(/img/stories_two.svg);
+  background-image: url(img/stories_two.svg);
   background-repeat: no-repeat;
  
     background-size: cover;
@@ -735,7 +735,7 @@ line-height: 50px;
    .stories_three{
     width: 290px;
 height: 254px;
-    background-image: url(/img/stories_three.svg);
+    background-image: url(img/stories_three.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -746,7 +746,7 @@ height: 254px;
 .stories_four{
   width: 290px;
 height: 254px;
-  background-image: url(/img/stories_four.svg);
+  background-image: url(img/stories_four.svg);
   background-repeat: no-repeat;
   background-position: center;
     background-size: cover;
