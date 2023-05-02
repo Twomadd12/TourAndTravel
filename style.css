@@ -73,6 +73,7 @@
   }
   .wrapper{
     max-width: 1242px;
+
     margin: 0 auto;
   }
   li, .login, .register{
@@ -165,7 +166,7 @@ text-decoration: none;
 }
 /* End Style Header */
 
-.intro{
+.wrap_one{
     position: relative;
     padding-top: 200px;
 }
@@ -181,12 +182,12 @@ line-height: 80px;
     position: relative;
     
 }
-.star{
+.img_star{
     
     position: absolute;
     width: 20.05px;
     height: 20px;
-    top: 19px;
+    top: 220px;
     left: 457px;
 }
 .calendar{
@@ -259,7 +260,7 @@ select{
   position: absolute;
   width: 687px;
   height: 654px;
-  top: -40px;
+  top: 160px;
   left: 650px;
 }
 .explore{
@@ -281,24 +282,24 @@ border: none;
   text-decoration: none;
   color: white;
 }
-.krug{
+.circle{
   position: absolute;
   height: 26px;
 width: 25.94px;
-left: -85px;
-top: 294px;
+left: -105px;
+top: 490px;
 border-radius: 0px;
 }
-.secondkrug{
+.circle_two{
   position: absolute;
   height: 20px;
 width: 19.95px;
 left: 565px;
-top: 595px;
+top: 795px;
 border-radius: 0px;
 
 }
-.introtwo{
+.wrap_two{
   position: relative;
   padding-top: 313px;
 }
@@ -333,10 +334,7 @@ border-radius: 0px;
   height: 534px;
   left: 141px;
 }
-.intro_pic{
-  position: absolute;
-  left: 51px;
-}
+
 .intro_info{
   margin-left: 102px;
   display: flex;
@@ -363,25 +361,23 @@ line-height: 30px;
 color: #7D7987;
 padding-top: 20px;
 }
-.star2 img{
+.star_two img{
   position: absolute;
   height: 19.99999946986407px;
 width: 20.047763293060893px;
 left: 688.6061401367188px;
-top: -10px;
+top: -30px;
 border-radius: 0px;
 }
-.krug2 img{
+.circle_two img{
   position: absolute;
   width: 19.96px;
   height: 20px;
-  left: 89%;
-right: 21.94%;
-top: 66.29%;
-bottom: 73.35%;
+  
+  
 }
 
-.introthree{
+.wrap_three{
   padding-top: 292px;
   
   
@@ -480,17 +476,18 @@ padding-top: 10px;
     margin-left: 30px;
    
 }
-.krug3{
+.star_three{
   position: absolute;
   height: 20px;
 width: 19.958234786987305px;
-right: 200px;
-top: -130px;
+left: -120px;
+top: 240px;
 border-radius: 0px;
 
 }
+
 /* End Section 3 */
-.section_four{
+.wrap_four{
   margin-top: 231px;
 }
 
@@ -527,29 +524,22 @@ margin-top: 20px;
 .picture_guides{
   padding-left: 180px;
 }
-.star3{
-  position: absolute;
-  right: -100px;
-  top: 30px;
-}
-.krug5{
+.circle_section_four{
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 65px;
-  left: 45px;
+  top: 20px;
+  left: 40px; 
 }
-.star6{
+.star_section_four{
   position: absolute;
-  width: 20px;
-  height: 20px;
-  bottom: 125px;
-  left: 405px;
+  right: -50px;
+  top: 20px;
 }
 /* End Section 4 */
 
 
-.section_five{
+.wrap_five{
   margin-top: 182px;
 }
 .testimonals{
@@ -626,21 +616,21 @@ margin-top: -10px;
 }
 .border_pic{
   position: absolute;
-  right: 0px;
+  right: 125px;
   bottom: 0px;
   width: 132px;
   height: 60px;
   background-color: white;
   border-top-left-radius: 15px;
 }
-.eclipse1{
+.eclipse_grey{
   position: absolute;
   padding-left: 30px;
   padding-top: 15px;
   z-index: 1;
   color: red;
 }
-.eclipse1 a:before{
+.eclipse_grey a:before{
   
   opacity: 0;
 }
@@ -654,7 +644,7 @@ margin-top: -10px;
   
   opacity: 1;
 }
-.vlevo{
+.arrow_left{
   position: absolute;
   
   padding-left: 47px;
@@ -669,12 +659,12 @@ margin-top: -10px;
 .eclipse_black:hover{
   opacity: 0.25;
 }
-.vpravo{
+.arrow_right{
   position: absolute;
    padding-left: 17px;
   padding-top: 12px;
   }
-.krug6{
+.circle_section_five{
   position: absolute;
   width: 21.95px;
   height: 22px;
@@ -682,7 +672,7 @@ margin-top: -10px;
   top: 180px;
   }
   
-  .krug7{
+  .circle_pic_man{
     position: absolute;
     top: -15px;
     right: -15px;
@@ -690,7 +680,7 @@ margin-top: -10px;
     height: 42px;
     z-index: -1;
   }
-  .star4{
+  .star_section_five{
     position: absolute;
     width: 31.72px;
     height: 31.64px;
@@ -700,7 +690,7 @@ margin-top: -10px;
 
   /* Section five End */
   
-.section_six{
+.wrap_six{
   margin-top: 307px;
 }
 .stories{
@@ -826,27 +816,29 @@ font-weight: 600;
 font-size: 15px;
 line-height: 28px;
 }
-.krug8{
+.circle_section_six_two{
   position: absolute;
   width: 19.96px;
   height: 20px;
   left: -85.04px;
   bottom: -3px;
 }
-.star5{
+.star_section_six{
   position: absolute;
   width: 20px;
   height: 20px;
   bottom: 430px;
   left: 450px;
 }
-.krug9{
+.circle_section_six_one{
   position: absolute;
   width: 19.96px;
   height: 20px;
   top: 540px;
   right: 440px;
 }
+
+/* End section six */
 
 footer{
   position: relative;
@@ -873,7 +865,7 @@ footer{
   padding-top: 78px;
   flex-direction: column;
 }
-.second_wrap_1st{
+.second_wrap{
   width: 310px;
   height: 84px;
   font-family: 'Muli';
@@ -884,7 +876,7 @@ line-height: 28px;
 color: #848484;
 padding-top: 26px;
 }
-.third_wrap_1st{
+.third_wrap{
   padding-top: 80px;
   font-family: 'Muli';
 font-style: normal;
